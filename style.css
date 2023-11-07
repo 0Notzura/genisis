@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+}
+#complet{
+    width: 90vh;
+    height: 90vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50%,-50%); 
+    border-radius: 50%;
+    overflow: hidden;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+
+}
+#down{
+    background-color: hotpink;
+    width: 100vw;    
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#blue{
+    background-color: blue;
+
+}
+#green{
+    background-color: green;
+    
+}
+.placar{
+    color:white;
+}
+.btn{
+    width: 100%;
+    height: 100%;
+}
+.btn:active{
+    opacity: .5;
+}
+.selected{
+    opacity: .5;
+}
+.painel{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .5);
+
+}
+.restart{
+    width: 50%;
+    height: 30%;
+    background-color: rgb(25, 0, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
